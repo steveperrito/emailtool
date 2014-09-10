@@ -26,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="22" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.47089946" vertical-offset="258" max-vertical-offset="960">
+            <state line="38" column="36" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.94708997" vertical-offset="33" max-vertical-offset="960">
               <folding />
             </state>
           </provider>
@@ -120,6 +120,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="emailtool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emailtool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emailtool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -652,7 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="22" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.47089946" vertical-offset="258" max-vertical-offset="960">
+        <state line="38" column="36" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.94708997" vertical-offset="33" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
