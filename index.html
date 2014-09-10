@@ -1,0 +1,59 @@
+<html>
+<head><title>Convert text to email!</title></head>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/style.css"/>
+<body>
+<div class="container-fluid">
+<div class="page-header well">
+    <h1>Email Tools <small><span class="label label-default">format emails</span></small></h1>
+</div>
+    <div class="container-fluid">
+<div class="row">
+    <div class="col-md-4">
+        <form class="form-horizontal" role="form" action="#">
+            <div class="form-group">
+                <label for="enterText" class="control-label">Enter email text below:</label>
+                <textarea id="enterText" rows="10" class="textInput form-control" placeholder="Paste it all here."></textarea>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+            <input class="divWidth form-control" placeholder="Email Width" type="number"/>
+                <div class="input-group-addon" data-trigger="click" data-container="body" data-toggle="popover" title="Width Specs" data-content="200 is a minimum. Anything below that will be ignored and 400 will be set as its default." data-placement="right"><span class="glyphicon glyphicon-question-sign"></span> </div>
+                </div>
+            </div>
+            <div class="form-group">
+
+                    <div class="checkbox">
+                        <label>
+                            <input class="checkbox brkCheck" type="checkbox" checked /> Preserve Line Breaks.
+                        </label>
+                    </div>
+                <div class="checkbox">
+                    <label>
+                        <input class="checkbox yellowCheck" type="checkbox" checked /> Add Yellow P.S.
+                    </label>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <button class="submit btn btn-default btn-sm" type="submit">Submit!</button>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-4">
+        <div class="codeCopy">
+            <label for="copyMe" class="control-label">Now Copy It!</label>
+            <textarea rows="10" id="copyMe" class="codeCopyText form-control"></textarea>
+        </div>
+    </div>
+    <div class="col-md-4 scroller rowHeight">
+        <div class="sampleDiv"style="width: 400px; float: left; font-family: Arial, Helvetica, sans-serif; line-height: 25px;"></div>
+    </div>
+</div>
+    </div>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/converter.js"></script>
+</div>
+</body>
+</html>

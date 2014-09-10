@@ -1,0 +1,32 @@
+body {
+    background: #FDFDFD;
+}
+input.submit {
+    display: block;
+}
+
+div.sampleDiv {
+    background: none;
+    display: none;
+}
+
+.codeCopy {
+    display: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.scroller {
+    overflow: auto;
+}
+
+.rowHeight {
+    height: 302px;
+}
+
+div.input-group-addon {
+    cursor: pointer;
+}
+
